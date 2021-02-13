@@ -20,3 +20,7 @@ texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Fly/RigidBody2D"]
 shape = SubResource( 1 )
+
+[node name="Flower" type="Node2D" parent="."]
+
+[node name="Petals" type="Node2D" parent="Flower"]
